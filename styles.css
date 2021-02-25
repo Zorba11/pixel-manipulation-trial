@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: black;
+}
+
+#canvas1 {
+    /* center it horzontally */
+    border: 2px solid blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    /* width and height should be same as the image used */
+    width: 500px;
+    height: 727px;
+}
