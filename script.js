@@ -85,7 +85,7 @@ myImage.addEventListener('load', function() {
 
         draw() {
             ctx.beginPath();
-            ctx.fillStyle = 'white';
+            ctx.fillStyle = 'grey';
             ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
             ctx.fill();
         }
